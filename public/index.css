@@ -1,0 +1,99 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.note-list{
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+}
+
+
+.container{
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0px 15px 0px 15px;
+}
+.note{
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 190px;
+    padding: 1rem;
+    height: 100%;
+    background-color: khaki;
+
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.delete-icon{
+    float: right;
+}
+
+
+.add-note{
+   
+    min-height: 190px;
+    padding: 1rem;
+    height: 100%;
+    background-color: rgb(210, 244, 255);
+
+
+}
+
+.textarea-note {
+    background: none;
+    outline: none;
+    border: none;
+    resize: none;
+}
+.note-text{
+    word-break: break-all;
+}
+
+.add-note-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-note-footer button{
+    padding: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+
+.search-note{
+    width:100%;
+    padding: 10px;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.search-box{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.circle{
+    cursor: pointer;
+    border-radius: 100%;
+    height:20px;
+    width: 20px;
+    margin: 3px;
+}
+.color-toolkit{
+    display: flex;
+    margin-bottom: 1.5em;
+}
+
+.circle.selected {
+    border: 4px solid black; /* Add your desired border styles here */
+  }
