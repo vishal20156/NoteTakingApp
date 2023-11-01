@@ -1,5 +1,6 @@
-# NoteTakingApp
-<h1>Notes Appp in React</h1>
+# NoteTakingApp 
+<h1>Notes App in React</h1>
+Link - <a href = "https://note-taking-app-ydp7.vercel.app/">View Project</a>
 <ul>
   <li>Supports limited colored notes</li>
   <li>Search option to search notes as you type</li>
